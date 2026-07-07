@@ -1,5 +1,6 @@
-import { Button } from './ui/button';
 import Link from 'next/link';
+import { buttonVariants } from './ui/button';
+import { cn } from '@/lib/utils';
 
 export function HeroSection() {
   return (
@@ -18,12 +19,12 @@ export function HeroSection() {
           Kami membantu kebutuhan desain dan percetakan tanpa perlu antre. Gak pakai ribet, beres diantar sampai depan pintu.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-          <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 rounded-full px-8 text-base">
-            <Link href="#order">Konsultasi Gratis</Link>
-          </Button>
-          <Button asChild size="lg" variant="outline" className="rounded-full px-8 text-base border-border hover:bg-white/5">
-            <Link href="#katalog">Lihat Katalog</Link>
-          </Button>
+          <Link href="#order" className={cn(buttonVariants({ size: "lg" }), "bg-accent text-accent-foreground hover:bg-accent/90 rounded-full px-8 text-base")}>
+            Konsultasi Gratis
+          </Link>
+          <Link href="#katalog" className={cn(buttonVariants({ size: "lg", variant: "outline" }), "rounded-full px-8 text-base border-border hover:bg-white/5")}>
+            Lihat Katalog
+          </Link>
         </div>
       </div>
     </section>

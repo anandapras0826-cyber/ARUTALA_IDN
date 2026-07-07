@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { Button } from './ui/button';
+import { buttonVariants } from './ui/button';
+import { cn } from '@/lib/utils';
 
 export function Navbar() {
   return (
@@ -20,9 +21,9 @@ export function Navbar() {
             <Link href="#faq" className="text-sm font-medium hover:text-accent transition-colors">FAQ</Link>
           </div>
           <div className="flex items-center gap-4">
-            <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold rounded-full px-6">
-              <Link href="#order">Konsultasi Gratis</Link>
-            </Button>
+            <Link href="#order" className={cn(buttonVariants(), "bg-accent text-accent-foreground hover:bg-accent/90 font-semibold rounded-full px-6")}>
+              Konsultasi Gratis
+            </Link>
           </div>
         </div>
       </div>
