@@ -11,7 +11,7 @@ const faqs = [
 export function FaqSection() {
   return (
     <section id="faq" className="py-24 bg-muted/30">
-      <div className="container max-w-screen-xl mx-auto px-6">
+      <div className="container max-w-7xl mx-auto px-6">
          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
             <div>
               <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">FAQ</h2>

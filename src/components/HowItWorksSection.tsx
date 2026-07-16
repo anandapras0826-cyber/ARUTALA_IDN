@@ -8,7 +8,7 @@ export function HowItWorksSection() {
 
   return (
     <section id="cara-kerja" className="py-24 bg-background border-t border-border">
-      <div className="container max-w-screen-xl mx-auto px-6">
+      <div className="container max-w-7xl mx-auto px-6">
          <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">Cara Kerja Kami</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">4 langkah mudah mewujudkan kebutuhan cetak dan desain Anda.</p>
@@ -20,7 +20,7 @@ export function HowItWorksSection() {
                   {step.num}
                 </div>
                 {i !== steps.length - 1 && (
-                  <div className="hidden md:block absolute top-8 left-[60%] w-full h-[1px] bg-border -z-0" />
+                  <div className="hidden md:block absolute top-8 left-[60%] w-full h-px bg-border z-0" />
                 )}
                 <h3 className="font-heading font-bold text-xl mb-2">{step.title}</h3>
                 <p className="text-muted-foreground text-sm">{step.desc}</p>

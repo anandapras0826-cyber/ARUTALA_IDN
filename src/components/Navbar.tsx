@@ -4,8 +4,8 @@ import { cn } from '@/lib/utils';
 
 export function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-20 max-w-screen-xl mx-auto items-center px-6">
+    <nav className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
+      <div className="container flex h-20 max-w-7xl mx-auto items-center px-6">
         <div className="flex w-full justify-between items-center">
           <Link href="/" className="flex items-center space-x-2">
             {/* We use a text-based logo as a placeholder since there is no logo asset */}

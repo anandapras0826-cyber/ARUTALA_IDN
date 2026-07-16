@@ -12,7 +12,7 @@ const portfolioItems = [
 export function PortfolioSection() {
   return (
     <section id="portfolio" className="py-24 bg-background border-t border-border">
-      <div className="container max-w-screen-xl mx-auto px-6">
+      <div className="container max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">Portfolio Karya</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Lihat beberapa hasil karya desain dan cetak terbaik dari tim kami.</p>

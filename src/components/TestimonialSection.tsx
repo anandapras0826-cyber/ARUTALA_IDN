@@ -12,7 +12,7 @@ const testimonials = [
 export function TestimonialSection() {
   return (
     <section id="testimoni" className="py-24 bg-background">
-      <div className="container max-w-screen-xl mx-auto px-6">
+      <div className="container max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">Apa Kata Mereka?</h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Testimoni dari klien yang telah mempercayakan kebutuhan desain dan cetaknya kepada kami.</p>

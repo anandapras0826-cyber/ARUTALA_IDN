@@ -6,7 +6,7 @@ export function HeroSection() {
   return (
     <section className="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden">
       {/* Background with night sky vibe */}
-      <div className="absolute inset-0 bg-[#0a0a0a] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-900 via-[#0a0a0a] to-black -z-10">
+      <div className="absolute inset-0 bg-[#0a0a0a] bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-slate-900 via-[#0a0a0a] to-black -z-10">
          <div className="absolute top-20 right-20 w-72 h-72 bg-accent/20 rounded-full blur-[120px]" />
       </div>
       
