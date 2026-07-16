@@ -10,20 +10,24 @@ import { PortfolioSection } from "@/components/PortfolioSection";
 import { TestimonialSection } from "@/components/TestimonialSection";
 import { FaqSection } from "@/components/FaqSection";
 import { OrderSection } from "@/components/OrderSection";
+import { DesignGuidelineSection } from "@/components/DesignGuidelineSection";
+import { BlogSection } from "@/components/BlogSection";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="flex-1 w-full flex flex-col">
+      <main className="flex-1 w-full flex flex-col overflow-hidden">
         <HeroSection />
         <AboutSection />
-        <FeaturesSection />
-        <HowItWorksSection />
         <CatalogSection />
+        <HowItWorksSection />
+        <FeaturesSection />
+        <DesignGuidelineSection />
         <PortfolioSection />
         <TestimonialSection />
         <FaqSection />
+        <BlogSection />
         <OrderSection />
       </main>
       <Footer />
