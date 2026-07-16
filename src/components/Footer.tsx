@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { MapPin, Phone, Send } from 'lucide-react';
-// PERBAIKAN: Menggunakan ikon Instagram dari react-icons/fa (FontAwesome)
 import { FaInstagram } from 'react-icons/fa';
 
 export function Footer() {
